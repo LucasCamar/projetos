@@ -51,10 +51,10 @@ header {
 
 .socias button {
     border: none;
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.233);
-    width: 45px;
-    height: 45px;
+    width: 48px;
+    height: 48px;
     color: rgb(44, 42, 42);
     background-image: linear-gradient( 45deg, #353433, #706b6a);
     margin-right: 10px;
@@ -64,6 +64,10 @@ header {
 .socias button i {
     font-size: 25px;
     color: white;
+}
+.btn:hover {
+    scale: 1.1;
+    transition: 0.5s ;
 }
 
 main{
@@ -100,10 +104,13 @@ footer {
 }
 .lista1 a {
     color: black;
+    font-size: 1.0em;
     text-decoration: none;
 }
 .lista1 a:hover{
     color: rgba(255, 0, 0, 0.699);
+    font-size: 1.1em;
+    transition: 0.5s ;
 }
 .rec2 {
     text-decoration: none;
