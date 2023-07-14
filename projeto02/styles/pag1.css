@@ -1,0 +1,78 @@
+:root {
+    --cor1: #8C030E;
+    --cor2: #8C031C;
+    --cor3: #40010D;
+    --cor4: #260104;
+    --cor5: #0D0D0D;
+    --sombra: #0000003b;
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient( 90deg, var(--cor2), var(--cor1));
+    width: 100%;
+    padding: 10px;
+}
+.container {
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+/*------------ Logo -----------------*/
+.logo, .sociais {
+    width: 25%;
+}
+/*------------ Menu -----------------*/
+.menu {
+    width: 50%;
+}
+.menu nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin-right: 50px;
+}
+.menu nav a:hover {
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-image: linear-gradient(90deg, black,grey);
+}
+/*------------ SociaisBTN -----------------*/
+.sociais button {
+    border: none;
+    border-radius: 25px;
+    box-shadow: 2px 3px 3px var(--sombra);
+    height: 48px;
+    width: 48px;
+    color: rgb(44, 44, 42);
+    background-image: linear-gradient(45deg, #303AF2,#4951F2,#5C73F2,#91A0F2);
+    margin-right: 10px;
+    cursor: pointer;
+}
+.sociais button i {
+    font-size: 25px;
+    color: white;
+}
+.btn:hover {
+    transform: scale(1.1)rotate(360deg);
+    transition: all 0.9s ease-in-out 0s;
+}
+/*------------ Main -----------------*/
+main {
+
+}
+/*------------ Footer -----------------*/
+footer {
+    background: linear-gradient( 90deg, var(--cor2), var(--cor1));
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
