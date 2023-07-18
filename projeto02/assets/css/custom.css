@@ -1,0 +1,111 @@
+.header, .header .menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.header{
+    position: fixed;
+    padding: 5.5vh;
+    top: 0;
+    background-color: var(--black);
+    border-bottom: 1px solid var(--gray-dark);
+}
+
+.header .menu {
+    justify-content: space-between;
+
+
+}
+.header .menu .logo,
+.header .menu .logo-img{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.header .menu .logo-img{
+   
+    padding: 15px 5px;
+    border-radius: 20px;
+
+}
+
+.header .menu .list{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.header .menu .list .item-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+.header .menu .list .item-menu i {
+    font-size: 14px;
+    margin-left: 5px;
+}
+.header .menu .list .item-menu:hover,
+.header .menu .list .item-menu:hover *{
+    color: rgba(255, 0, 0, 0.527);
+}
+.header .menu .discord i{
+    font-size: 18px;
+    margin-right: 5px;
+}
+.header .menu .discord:hover{
+    border-color: rgba(255, 0, 0, 0.322);
+}
+
+.main{
+    margin-top: 10vh;
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 0;
+}
+
+
+.footer {
+    background-image: linear-gradient( 45deg, #353433, #706b6a);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    bottom: 0;
+    
+}
+
+/* Slide Pagina principal*/
+
+.swiper {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    border-radius:20px;
+    background-color: var(--gray-dark);
+    z-index: 1;
+  }
+
+  .swiper-slide {
+    width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+  }
