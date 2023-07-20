@@ -55,6 +55,11 @@ a{
     color: var(--white);
 }
 
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
 .btn-all{
     display: flex;
     align-items: center;
