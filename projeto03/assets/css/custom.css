@@ -1,9 +1,22 @@
+.container .row p {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    color: var(--red);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--warning);
+    bottom: 1px ;
+    padding-top: 10px;
+}
 /*Search-Box*/
 .search-box {
     right: 9%;
     transform: translate(15px, -9%);
 
     background: #fff;
+    color: var(--warning);
     border-radius: 40px;
 
     display: flex;
@@ -60,6 +73,43 @@
 
 .item-menu:hover,
 li:hover * {
-    color: black;
+    color: var(--warning);
 }
+
+
+/* Slide Pagina principal*/
+
+.main .swiper {
+    position: relative;
+    width: 98%;
+    height: 70vh;
+    border-radius:20px;
+    background-color: var(--gray-dark);
+    z-index: 1;
+    background-position: top center;
+  }
+
+.swiper-slide {
+    width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.main .swiper .swiper-pagination-progressbar{
+    top: unset;
+    bottom: 0;
+}
+
+.main .swiper-pagination .swiper-pagination-progressbar-fill{
+    background: var(--red);
+}
+
 

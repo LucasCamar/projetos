@@ -52,7 +52,7 @@
         top: -7px;
     }
     .item-menu:hover {
-        color: black;
+        color: var(--warning);
         border-bottom: 1px solid black;
     }
 
