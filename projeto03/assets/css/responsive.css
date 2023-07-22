@@ -1,4 +1,4 @@
-@media (max-width: 1023.5px) {
+@media (max-width: 1024px) {
 
     .menu {
         position: relative;
@@ -59,7 +59,7 @@
     .search-box {
         position: absolute;
         z-index: 1;
-        top: 28px;
+        top: 55px;
         right: 9%;
         transform: translate(-23px, -9%);
     
@@ -197,7 +197,7 @@
     .search-box {
         position: absolute;
         z-index: 1;
-        top: 28px;
+        top: 55px;
         right: 9%;
         transform: translate(-23px, -9%);
     
