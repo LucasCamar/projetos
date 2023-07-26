@@ -104,12 +104,60 @@ li:hover * {
 
 }
 .main .swiper .swiper-pagination-progressbar{
-    top: unset;
-    bottom: 0;
+    position: absolute;
+    top: 25%;
+    bottom: unset;
 }
 
 .main .swiper-pagination .swiper-pagination-progressbar-fill{
     background: var(--red);
 }
 
+/* Main class cards */
+
+/* main.cards{
+    position: absolute;
+    display: flex;
+    z-index: 99;
+    text-align: center;
+    border-radius: 20px;
+    background-color: var(--warning);
+    max-width: 70vh;
+    margin-top: 5px;
+    margin-left: 3%;
+    top: 67%;
+    padding: 20px;
+    color: var(--red);
+    align-items: center;
+}
+
+section.card {
+    height: 80px;
+    width: 250px;
+}
+
+section.card h3 { 
+    position: absolute;
+    width: 200px;
+    display: block;
+    padding-left: 13px;
+    top: 30%;
+    
+}
+
+section.card a {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    margin-left: 80px;
+}
+section.card h3.h31 {
+    padding-left: 30px;
+}
+section.card i {
+    position: absolute;
+    display: flex;
+    top: 30%;
+    font-size: 40px;
+} */
 
